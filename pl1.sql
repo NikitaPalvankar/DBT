@@ -299,7 +299,7 @@ delimiter ;
 
 
 
-
+/* FUNCTION */
 
 
 
@@ -428,4 +428,5 @@ b1:BEGIN
 	set new.who := user();
 	set new.when1 := curdate();
 end b1$
+
 delimiter ;
